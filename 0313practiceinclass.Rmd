@@ -4,6 +4,10 @@ author: "沈家妤"
 date: "3/13/2019"
 output: html_document
 ---
+```{r}
+a <- 2
+3 -> b
+```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
