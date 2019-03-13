@@ -7,10 +7,47 @@ output: html_document
 ```{r}
 a <- 2
 3 -> b
+4756686666875 -> c
+```
+
+```{r}
+65 + b
+1 + c
+```
+
+```{r}
+c
+```
+
+```{r}
+`c`
+```
+
+```{r}
+`學期107我的學期成績 <- 80`
 ```
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+`107學期我的平均成績` <- 92
+```
+
+```{r}
+5 -> a
+5L -> a2
+class(a)
+class(a2)
+```
+```{r}
+aVector <- c(5,6,7)
+a2Vector <- c(5L,6L,7L)
+```
+
+```{r}
+class(a2Vector)
+class(aVector)
 ```
 
 
