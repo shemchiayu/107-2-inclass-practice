@@ -116,3 +116,65 @@ levels(birthplace)
 as.integer(birthplace)
 ```
 
+```{r}
+birthDate <- factor(c("台北市","台中市","台北市","台中市","台北市"))
+class(birthDate)
+as.integer(birthDate)
+```
+
+```{r}
+
+```
+
+```{r}
+job <- factor(c('doctor','teacher','doctor','doctor'))
+job
+as.integer(job)
+```
+
+```{r}
+library(lubridate)
+```
+
+dtObject<-ymd_hms("1970-01-01 00:02:53") 
+```{r}
+dtObject<-ymd_hms("1970-01-01 00:02:53") 
+```
+
+```{r}
+dtObjectVector<-ymd_hms(
+  c("1970-01-01 00:02:53",
+    "1980-02-11 11:25:22")
+)
+
+class(dtObject)
+
+dtObject
+
+typeof(dtObject)
+
+as.double(dtObject)
+```
+
+```{r}
+dtObject<-ymd_hms("1970-01-01 00:02:53") 
+```
+
+```{r}
+dtObject<-ymd_hms("1970-01-01 00:02:53") 
+```
+
+```{r}
+dtObject<-ymd_hms("1970-01-01 00:02:53") 
+```
+
+```{r}
+dtObjectVector<-ymd_hms(
+  c("1970-01-01 00:02:53",
+    "1980-02-11 11:25:22")
+)
+```
+
+
+
+
